@@ -1,0 +1,97 @@
+h1,h2{
+    color: rgb(205, 0, 157);
+    text-align: center;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.intro {
+    background-color: red;
+    font-size: 20px;
+}
+
+#main {
+    text-align: center;
+    color: blue;
+}
+
+.box-model { width: 300px;
+    border: 5px solid green;
+    border-radius: 10% / 50%;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Colors */
+.color-names {
+    color: blue;
+}
+
+.hex-color {
+    color: #ff0000;
+}
+
+.rgb-color {
+    background-color: rgb(0,255,0);
+}
+
+/* Fonts */
+.font-family {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font-size {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+/* Positioning */
+.static-position {
+    position: static;
+    background-color: yellow;
+}
+
+.relative-position {
+    position: relative;
+    left: 30px;
+    background-color: lightblue;
+}
+
+.absolute-position {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: pink;
+}
+
+.fixed-position {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightgreen;
+}
+
+/* Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+img{
+    clip-path: circle(50% at 50% 50%);
+}
